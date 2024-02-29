@@ -491,7 +491,7 @@ public class SplashScreen extends CordovaPlugin {
                     if (selectedTheme.equalsIgnoreCase("JOYFUL")) {
                         if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.LOLLIPOP) {
                             Objects.requireNonNull(splashDialog.getWindow()).addFlags(WindowManager.LayoutParams.FLAG_DRAWS_SYSTEM_BAR_BACKGROUNDS);
-                            splashDialog.getWindow().setStatusBarColor(Color.parseColor("#EDF4F9"));
+                            splashDialog.getWindow().setStatusBarColor(Color.parseColor("#FFFBFB"));
                         }
                     }
                 } else {
@@ -612,7 +612,7 @@ public class SplashScreen extends CordovaPlugin {
         splashContent.setOrientation(LinearLayout.VERTICAL);
         if (!isCustomizable) {
             if (themeSelected.equalsIgnoreCase("JOYFUL")) {
-                splashContent.setBackgroundColor(Color.parseColor("#EDF4F9"));
+                splashContent.setBackgroundColor(Color.parseColor("#FFFBFB"));
                 splashContent.layout(8, 8, 8, 8);
             } else {
                 splashContent.setBackgroundColor(Color.WHITE);
