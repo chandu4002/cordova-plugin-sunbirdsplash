@@ -531,7 +531,7 @@ public class SplashScreen extends CordovaPlugin {
             appNameTextView.setText(welcomeText);
             appNameTextView.setTextSize(26);
             textViewParam.topMargin = 30;
-            appNameTextView.setTextColor(Color.parseColor("#024F9D"));
+            appNameTextView.setTextColor(Color.parseColor("#FF9583"));
         } else {
             appNameTextView.setText(appName);
             appNameTextView.setTextSize(20);
